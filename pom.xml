@@ -20,8 +20,12 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.202.12.124:9000/</sonar.host.url>
-		<sonar.login>squ_c93b72e1e0285a86ba1cacb590e8d970967aa268</sonar.login>
+	    	<sonar.organization>maven-testing</sonar.organization>
+ 	 	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  	 	<sonar.projectKey>maven-testing_maven-builds</sonar.projectKey>
+	 	<sonar.login>0c1bccca860c9367138175d2b9553783b6734adc</sonar.login>
+	 	<sonar.moduleKey>${artifactId}</sonar.moduleKey>
+	 	<sonar.token>6c52912ebe74d4d48b7aca05a6d1be9bb5023897</sonar.token>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
